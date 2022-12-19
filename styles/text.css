@@ -1,0 +1,145 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.video-title {
+  font-size: 18px;
+  font-weight: bold;
+  width: 280px;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+
+.video-stats {
+  font-size: 14px;
+  color: #606060;
+  margin-bottom: 20px;
+}
+
+.video-author {
+  font-size: 14px;
+  color: #606060;
+  margin-bottom: 16px;
+}
+
+.video-info {
+  font-size: 14px;
+  color: #606060;
+  width: 280px;
+  line-height: 20px;
+  margin-bottom: 100px;
+}
+
+.apple-text {
+  font-size: 14px;
+  background-color: #e34140;
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.span-shop:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.span-example {
+  color: red;
+  margin-left: 12px;
+}
+.span-example:hover {
+  text-decoration: underline;
+}
+
+.question {
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.answer {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.learn-more {
+  font-size: 18px;
+  text-align: center;
+  color: #06c;
+  cursor: pointer;
+  padding-bottom: 16px;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+.new {
+  color: #f56300;
+  text-align: center;
+  font-size: 17px;
+}
+
+.air {
+  font-weight: bold;
+  font-size: 56px;
+  text-align: center;
+}
+
+.dont {
+  font-weight: bold;
+  text-align: center;
+  font-size: 21px;
+  padding-bottom: 16px;
+}
+
+.price {
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.buy {
+  background-color: #06c;
+  color: white;
+  border: none;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 16px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.money {
+  font-size: 40px;
+  margin-bottom: 6px;
+}
+
+.span-usd {
+  font-size: 24px;
+  color: gray;
+}
+
+.tesla {
+  font-size: 35px;
+}
+
+.percent {
+  color: green;
+  margin-bottom: 8px;
+}
+
+.after-hours {
+  color: gray;
+  margin-bottom: 64px;
+}
+
+.span-percent {
+  color: red;
+}
