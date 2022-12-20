@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Practice</title>
+    <link rel="stylesheet" href="styles/buttons.css">
+    <style>
+      p {
+        font-family: Arial;
+        color: gray;
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+
+
+      .thumbnail {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 150px;
+        margin-bottom: 16px;
+      }
+
+      .searchbar {
+        font-size: 20px;
+        border-width: 1px;
+        border-color: gray;
+        border-style: solid;
+        border-radius: 8px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 14px;
+        display: block;
+        margin-bottom: 16px;
+      }
+
+      .searchbar-google {
+        font-size: 20px;
+        width: 600px;
+        border-width: 1px;
+        border-color: gray;
+        border-style: solid;
+        border-radius: 25px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 14px;
+        box-shadow: 0 0 8px rgba(146, 146, 146, 0.3);
+        margin-left: 120px;
+        margin-right: 25%;
+        margin-bottom: 16px;
+      }
+
+      .email {
+        margin-bottom: 6px;
+      }
+
+      .searchbar-linkedin {
+        width: 300px;
+        margin-bottom: 16px;
+      }
+
+      .agree {
+        font-size: 12px;
+        margin-bottom: 16px;
+      }
+
+
+
+      .pfp-twitter {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+        vertical-align: middle;
+      }
+
+      .tweet {
+        color: gray;
+        border: none;
+        font-size: 18px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 9px;
+        width: 250px;
+        cursor: pointer;
+        vertical-align: middle;
+      }
+
+
+
+      .searchbar-name, 
+      .searchbar-email {
+        display: block;
+        margin-bottom: 6px;
+      }
+
+      .survey {
+        width: 200px;
+        vertical-align: middle;
+        display: inline-block;
+      }
+
+
+
+      .google {
+        display: block;
+        margin-left: 180px;
+        margin-bottom: 20px;
+      }
+
+      .searchbox-first {
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 8px;
+        width: 100px;
+        padding: 9px;
+        margin-bottom: 12px;
+      }
+
+      .searchbox-last {
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 8px;
+        width: 100px;
+        padding: 9px;
+        margin-bottom: 12px;
+      }
+
+      .searchbox-email {
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 8px;
+        padding: 9px;
+        display: block;
+        width: 224px;
+        margin-bottom: 12px;
+      }
+
+
+
+      
+
+    </style>
+  </head>
+  <body>
+    <img class="thumbnail" src="../thumbnails/thumbnail-1.webp" alt="" />
+
+    <input class="searchbar" type="text" placeholder="Search" />
+
+    <input
+      class="searchbar-google"
+      type="text"
+      placeholder="Search Google or type a URL"
+    />
+
+    <p class="email">Email</p>
+    <input class="searchbar-linkedin" type="text" />
+    <p class="agree">
+      By clicking Agree & Join, you agree to the Privacy Policy.
+    </p>
+    <button class="button-linkedin">Agree & Join</button>
+
+    <img class="pfp-twitter" src="../thumbnails/thumbnail-1.webp" alt="" />
+    <input
+      class="tweet"
+      type="text"
+      name=""
+      id=""
+      placeholder="What's happening?"
+    />
+    <button class="tweet-button">Tweet</button>
+    <br></br>
+
+    <input class="searchbar-name" type="text" placeholder="Name">
+    <input class="searchbar-email" type="text" placeholder="Email">
+
+    <p class="survey">
+        Thanks for chatting with out customer support. Would you like to take our quick survey?
+    </p>
+    <button class="survey-button">Yes</button>
+    <button>No</button>
+
+    <img class="google" src="thumbnails/seasonal-holidays-2022-6753651837109831.8-ladc.gif" alt="">
+    <input
+      class="searchbar-google"
+      type="text"
+      placeholder="Search Google or type a URL"
+    />
+
+    <input class="searchbox-first" type="text" placeholder="First name">
+    <input class="searchbox-last" type="text" placeholder="Last name">
+    <input class="searchbox-email" type="text" placeholder="Email">
+    <button class="button-signup">Sign Up</button>
+
+    <p>Request a ride now</p>
+    <input class="searchbox-pickup" type="text" placeholder="Enter pickup location">
+    <input class="searchbox-destination" type="text" placeholder="Enter destination">
+    <button>Request now</button>
+    <button>Schedule for later</button>
+</body>
+</html>
