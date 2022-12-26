@@ -59,7 +59,7 @@
       }
 
       .div-example {
-        display: inline-block;
+        display: block;
       }
 
       .red-square {
@@ -114,8 +114,76 @@
         border-radius: 6px;
         padding: 9px;
         width: 400px;
+        margin-bottom: 18px;
       }
 
+      .profile-container {
+        width: 300px;
+        padding: 9px;
+        margin-bottom: 12px;
+      }
+
+      .pfp-example {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+        vertical-align: middle;
+        display: inline-block;
+        cursor: pointer;
+      }
+
+      .username-container {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 8px;
+      }
+
+      .username {
+        color: black;
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: inline-block;
+        vertical-align: middle;
+        cursor: pointer;
+      }
+
+      .name {
+        font-weight: bold;
+        color: gray;
+        font-size: 14px;
+        margin: 0px;
+        vertical-align: middle;
+      }
+
+      .popular {
+        font-size: 12px;
+        margin: 0px;
+        vertical-align: middle;
+      }
+
+      .follow-container {
+        display: inline-block;
+        margin-left: 118px;
+      }
+
+      .follow-button {
+        font-size: 16px;
+        background-color: rgb(70, 159, 255);
+        color: white;
+        border: none;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border-radius: 4px;
+        vertical-align: middle;
+        cursor: pointer;
+        display: inline-block;
+      }
 
     </style>
   </head>
@@ -198,5 +266,44 @@
       <input class="tweet" type="text" placeholder="What's happening?">
       <button class="tweet-button">Tweet</button>
     </div>
+
+    <div>
+      <div class="profile-container">
+      <img class="pfp-example" src="../thumbnails/thumbnail-2.webp" alt="">
+      <div class="username-container">
+        <p class="username">oliver</p>
+        <p class="name">the cat</p>
+        <p class="popular">Popular</p>
+      </div>
+      <div class="follow-container">
+      <button class="follow-button">Follow</button>
+      </div>
+    </div>
+
+    <div class="profile-container">
+      <img class="pfp-example" src="../thumbnails/thumbnail-2.webp" alt="">
+      <div class="username-container">
+        <p class="username">oliver</p>
+        <p class="name">the cat</p>
+        <p class="popular">Popular</p>
+      </div>
+      <div class="follow-container">
+      <button class="follow-button">Follow</button>
+      </div>
+    </div>
+
+    <div class="profile-container">
+      <img class="pfp-example" src="../thumbnails/thumbnail-2.webp" alt="">
+      <div class="username-container">
+        <p class="username">oliver</p>
+        <p class="name">the cat</p>
+        <p class="popular">Popular</p>
+      </div>
+      <div class="follow-container">
+      <button class="follow-button">Follow</button>
+      </div>
+    </div>
+    </div>
+    
   </body>
 </html>
