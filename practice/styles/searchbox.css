@@ -1,0 +1,88 @@
+    .searchbar {
+    font-size: 20px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    display: block;
+    margin-bottom: 16px;
+    }
+
+    .searchbar-google {
+    font-size: 20px;
+    width: 600px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    box-shadow: 0 0 8px rgba(146, 146, 146, 0.3);
+    margin-right: 25%;
+    margin-left: 110px;
+    margin-bottom: 16px;
+    }
+
+    .searchbar-linkedin {
+    width: 300px;
+    margin-bottom: 16px;
+    }
+
+    .tweet {
+        color: gray;
+        border: none;
+        font-size: 18px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 9px;
+        width: 250px;
+        cursor: pointer;
+        vertical-align: middle;
+      }
+
+    .searchbar-name, 
+    .searchbar-email {
+    display: block;
+    margin-bottom: 6px;
+    }
+
+    .searchbox-first {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    width: 100px;
+    padding: 9px;
+    margin-bottom: 12px;
+    }
+
+    .searchbox-last {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    width: 100px;
+    padding: 9px;
+    margin-bottom: 12px;
+    }
+
+    .searchbox-email {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 9px;
+    display: block;
+    width: 224px;
+    margin-bottom: 12px;
+    }
+
+    .searchbox-pickup, .searchbox-destination {
+      background-color: rgb(234, 234, 234);
+      border: none;
+      padding: 12px;
+      display: block;
+      margin-bottom: 6px;
+      width: 300px;
+    }
