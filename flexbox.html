@@ -100,6 +100,48 @@
             padding-right: 9px;
         }
 
+        .header-container {
+            background-color: blueviolet;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .home-button {
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            font-weight: bold;
+            margin-left: 9px;
+        }
+
+        .searchbar {
+            padding-left: 16px;
+            padding-right: 9px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            border: none;
+            border-radius: 20px;
+            height: 10px;
+            width: 400px;
+        }
+
+        .download-button {
+            background-color: blueviolet;
+            color: white;
+            border: solid;
+            border-width: 1px;
+            border-radius: 2px;
+            font-weight: bold;
+            margin-right: 9px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
     </style>
   </head>
   <body style="padding-bottom: 1000px;">
@@ -344,7 +386,17 @@
     </div>
 
     <div class="header-container">
+        <div class="home-container">
+            <button class="home-button">Home</button>
+        </div>
 
+        <div class="search-container">
+            <input class="searchbar" type="text" placeholder="Search">
+        </div>
+
+        <div class="download-container">
+            <button class="download-button">Download</button>
+        </div>
     </div>
   </body>
 </html>
