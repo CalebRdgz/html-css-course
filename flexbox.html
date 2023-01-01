@@ -70,12 +70,6 @@
             width: 200px;
         }
 
-        .username {
-            font-weight: bold;
-            margin-top: 6px;
-            margin-bottom: 6px;
-        }
-
         .nickname {
             color: gray;
             margin-bottom: 6px;
@@ -141,6 +135,83 @@
             padding-left: 12px;
             padding-right: 12px;
         }
+
+
+
+        .twitter-post-container {
+            margin-top: 30px;
+            display: flex;
+        }
+
+        .user-section {
+            display: flex;
+            width: 370px;
+        }
+
+        .pfp-icon {
+            width: 50px;
+            border-radius: 50%;
+            margin-right: 12px;
+        }
+
+        .username-section {
+            display: inline-block;
+            align-items: top;
+        }
+
+        .username {
+            font-weight: bold;
+            margin-top: 2px;
+            margin-bottom: 6px;
+        }
+
+        .handle {
+            font-weight: 100;
+            color: gray;
+        }
+
+        .post-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .shared-link {
+            display: flex;
+            margin-top: 14px;
+            height: 100px;
+            width: 330px;
+            border-style: solid;
+            border-color: rgb(210, 210, 210);
+            border-width: 1px;
+            border-radius: 16px;
+            cursor: pointer;
+        }
+
+        .gray-box {
+            background-color: rgb(210, 210, 210);
+            height: 100px;
+            width: 95px;
+            border-radius: 14px;
+        }
+
+        .gray-box2 {
+            background-color: rgb(210, 210, 210);
+            height: 100px;
+            width: 50px;
+            margin-left: -50px;
+        }
+
+        .youtube-link {
+            padding-top: 16px;
+            padding-left: 12px;
+            width: 200px;
+        }
+
+        .link-info {
+            margin-top: 4px;
+            width: 250px;
+        }
+
 
     </style>
   </head>
@@ -397,6 +468,30 @@
         <div class="download-container">
             <button class="download-button">Download</button>
         </div>
+    </div>
+
+    <div class="twitter-post-container">
+        <div class="user-section">
+            <div class="pfp-section">
+                <img class="pfp-icon" src="pfp/coolcat.jpeg" alt="">
+            </div>
+            
+            <div class="username-section">
+                <p class="username">Caleb <span class="handle">@CalebRdgz</span></p>
+                <p>What is backend development? A complete overview. New video is up!</p>
+                <div class="shared-link">
+                    <div class="gray-box"></div>
+                    <div class="gray-box2"></div>
+                    <div class="youtube-link">
+                        <p class="handle">youtube.com</p>
+                        <p class="link-info">Backend web development - a complete overview (2021)</p>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+        
     </div>
   </body>
 </html>
